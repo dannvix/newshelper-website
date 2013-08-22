@@ -1,0 +1,13 @@
+#!/bin/sh
+upstream=$1
+: ${upstream:=origin}
+npm i
+git pull $upstream master || exit -1
+git branch -f gh-pages $upstream/gh-pages
+rm -rf _public
+git clone -s . -b gh-pages _public
+./node_modules/.bin/brunch b -o
+cd _public
+git add -A . && git commit -a -m 'deploy to gh-pages' && git push origin gh-pages
+cd ..
+git push $upstream gh-pages

@@ -1,0 +1,8 @@
+.swp
+.DS_Store
+
+node_modules/*
+npm-debug.log
+
+_public/
+app/assets/*html
