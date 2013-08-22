@@ -13,7 +13,7 @@ Screenshot
 Development
 -----------
 1. use `npm install` to install required [Node.js](http://node.js) modules
-2. use `brunch w -s` to launch the web server at http://localhost:3333
+2. use `brunch w -s` to launch the web server at [http://localhost:3333](http://localhost:3333)
 
 
 License
