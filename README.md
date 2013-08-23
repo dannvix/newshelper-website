@@ -2,7 +2,7 @@ Newshelper Website
 ==================
 [「新聞小幫手」](http://newshelper.g0v.tw)是 [g0v 零時政府](http://g0v.tw) 的夥伴們在[「第肆次國民大會黑客松」](http://hack.g0v.tw/g0v-hackath4n)所共同創造的專案，利用科技與群眾的力量守護大家的網路閱聽品質。
 
-本專案為「新聞小幫手」之網站前端設計。
+請注意：本專案為「新聞小幫手」之網站前端設計，未來所有更動將會直接套用在 [g0v/newshelper-backend](https://github.com/g0v/newshelper-backend) 而不會更新在這裡。
 
 
 Screenshot
